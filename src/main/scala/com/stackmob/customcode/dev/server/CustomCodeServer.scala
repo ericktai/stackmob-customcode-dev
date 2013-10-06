@@ -30,7 +30,7 @@ object CustomCodeServer {
    * java compatability method for #serve(JarEntryObject, String, String, Int)(HttpClient)
    */
   def serve(jarEntryObject: JarEntryObject, apiKey: String, apiSecret: String, port: Int) {
-    serve(jarEntryObject, apiKey, apiSecret)
+    serve(jarEntryObject, apiKey, apiSecret, port)
   }
 
   /**
